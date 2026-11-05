@@ -27,7 +27,7 @@ function Sidebar({ setOpenMadal }) {
         onClick={handleOpenModal}
         className="w-full h-10 border flex justify-start items-center px-2 mt-2.5 rounded-lg"
       >
-        Open Modal
+        Open Modall
       </button>
     </div>
   );
