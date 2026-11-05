@@ -1,0 +1,13 @@
+@import "tailwindcss";
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    display: block;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
