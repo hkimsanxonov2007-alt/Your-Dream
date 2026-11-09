@@ -10,8 +10,10 @@ function Sidebar({ setOpenMadal }) {
     <div className="w-[20%] h-screen bg-mist-600 text-white  p-2">
       <h1 className="text-center text-4xl font-bold">Sidebar</h1>
       <ul className="w-full h-auto">
-        <li className="w-full h-10 border flex justify-start items-center px-2 mt-2.5 rounded-lg">
-          <NavLink to={"/"}>Home</NavLink>
+        <li className="w-full  border flex justify-start items-center  mt-2.5 rounded-lg">
+          <NavLink className={"block w-full py-2 px-3"} to={"/"}>
+            Home
+          </NavLink>
         </li>
         <li className="w-full h-10 border flex justify-start items-center px-2 mt-2.5 rounded-lg">
           <NavLink to={"/about"}>About</NavLink>

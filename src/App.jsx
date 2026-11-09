@@ -40,7 +40,7 @@ function App() {
       {openMadal && <Modal setOpenMadal={setOpenMadal} />}
 
       <Sidebar setOpenMadal={setOpenMadal} />
-      <div className="w-[80%] h-screen m-auto  px-11 bg-gray-300">
+      <div className="w-[80%] h-auto m-auto  px-11">
         <Outlet />
       </div>
     </div>
