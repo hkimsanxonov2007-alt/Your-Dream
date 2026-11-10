@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Modal from "./companents/Modal";
 import { useState } from "react";
+import Photos from "./pages/Photos";
 
 export const routers = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const routers = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/photos",
+        element: <Photos />,
       },
     ],
   },

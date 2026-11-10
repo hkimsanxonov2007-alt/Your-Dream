@@ -14,7 +14,7 @@ function Services() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-2.5 ">
+    <div className="flex flex-col gap-2.5 overflow-scroll h-screen">
       <h1 className="text-center text-3xl font-bold">Comments</h1>
       <table>
         <thead>

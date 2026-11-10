@@ -14,8 +14,8 @@ function Contact() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-2.5">
-      <h1 className="text-center text-3xl font-bold">Photos</h1>
+    <div className="h-screen overflow-scroll flex flex-col gap-2.5">
+      <h1 className="text-center text-3xl font-bold">Contact</h1>
       <table>
         <thead>
           <tr>

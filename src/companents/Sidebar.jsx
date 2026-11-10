@@ -24,6 +24,9 @@ function Sidebar({ setOpenMadal }) {
         <li className="w-full h-10 border flex justify-start items-center px-2 mt-2.5 rounded-lg">
           <NavLink to={"/contact"}>Contact</NavLink>
         </li>
+        <li className="w-full h-10 border flex justify-start items-center px-2 mt-2.5 rounded-lg">
+          <NavLink to={"/photos"}>Photos</NavLink>
+        </li>
       </ul>
       <button
         onClick={handleOpenModal}

@@ -14,7 +14,7 @@ function About() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-2.5">
+    <div className="flex flex-col gap-2.5 h-screen  overflow-scroll">
       <h1 className="text-center text-3xl font-bold">Todos</h1>
       <table>
         <thead>
